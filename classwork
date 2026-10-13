@@ -1,0 +1,126 @@
+# a= 10
+# b=10.5
+# c="10"
+# d=True
+
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(d))
+
+# student_name ="Shreya" 
+# student_age = 20
+# course_name = "Python"
+# percentage = 85.5
+# passed = True
+
+# print(student_name)
+# print(student_age)
+# print(course_name)
+# print(percentage)
+# print(passed)
+
+# employee_id = 101
+# employee_name = "Shubham"
+# salary = 500000
+# department = "IT"
+# is_active = True
+
+# print(employee_id)
+# print(employee_name)
+# print(salary)
+# print(department)
+# print(is_active)
+
+# #list
+
+# students=["Aman","Riya","Priya","Juhi"]
+# print(students)  #complete
+# print(students[0])   #first
+# print(students[3])    #last
+# students.append("Kavita")    #add another student
+# students.remove("Juhi")      #remove one student
+# print(students)
+
+#   #Tuple
+
+# months=("January", "Febuary", "March", "April", "May")
+# print(months)   #complete
+# print(months[0])   #first
+# print(months[4])    #last
+# print(len(months))   #number of elements
+
+#   #Dictionary - #key-name   valur-shreya
+# student={
+#     "Name":"Shreya",
+#     "age":20,
+#     "course":"python",
+#     "marks":85,
+#     "city":"Lucknow"
+
+# }
+# print(student)
+# print(student["Name"])
+# print(student["marks"])
+
+# student["marks"]=90
+# student["Gender"]="Female"
+# print(student)
+
+
+# marks=int(input("Enter your marks"))
+
+# if marks>=90 and marks<=100:
+#     print("Excellent")
+# elif marks >=75:
+#  print("Very good")
+# elif marks >=60:
+#    print("good")
+# elif marks >=40:
+#    print("Pass")
+# else:
+#    print("Fail")
+
+
+   #Rectengle pattern
+# for i in range(1, 5):
+#     for j in range(1, 7):
+#         print("*", end=" ")
+#     print()
+
+
+   #Increasing Triangle
+# for r in range(1, 8):
+#     for c in range(1, r+1):
+#         print("*", end=" ")
+#     print()
+
+#Number square
+# for p in range(1, 5):
+#     for k in range(1, 5):
+#         print(p, end=" ")
+#     print()
+
+
+# Classroom Seating
+# for i in range(1, 6):
+#     for j in range(1, 9):
+#         print("R" + str(i) + "S" + str(j), end=" ")
+#     print()
+
+   #Prime number
+# for i in range(2, 51):
+#     count = 0
+#     for j in range(1, i+1):
+#         if i % j == 0:
+#             count += 1
+#     if count == 2:
+#         print(i, end=" ")
+
+#  Pattern challange Centered pyramid
+# for i in range(1, 6):
+#     for j in range(1, 6-i):
+#         print(" ", end="")
+#     for k in range(1, 2*i):
+#         print("*", end="")
+#     print()
